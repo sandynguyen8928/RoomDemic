@@ -1,4 +1,4 @@
-# RoomRemic
+# RoomRemic — McHacks9
 
 # Inspiration
 Where did you spend the most times during the almost over two years pandemic? That's right, your bedroom. We wanted a way to illustrate what living in isolation was like for many students in Canada. We decided to showcase the positives amidst all the chaos but also the realism of the situation.
