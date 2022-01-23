@@ -1,0 +1,44 @@
+body {
+    overflow: hidden;
+    background-color: white;
+}
+
+.overlay {
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+}
+
+#img1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    visibility: hidden;
+    border-radius: 50%;
+}
+
+html {
+    cursor: url('images/pepe.jpg'), auto;
+}
+
+#divCenter {
+    visibility: visible;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 41%;
+    left: 43.5%;
+}
+
+p {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,157 @@
+html, body {
+  height: 100%;
+  background-color: black;
+}
+
+.bg {
+  top: 0;
+  left: 0;
+  height: 100%;
+  position: relative;
+  background: url("images/backg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#scotty {
+  position: relative;
+  bottom: 10px;
+  left: 5600px;
+  size: 10%;
+}
+
+#pills {
+  position: relative;
+  top: 2000px;
+  left: 2100px;
+}
+
+#rapidtests {
+  position: relative;
+  top: 2300px;
+  left: 2050px;
+}
+
+#toiletpaper {
+  position: relative;
+  top: 2300px;
+  left: 3810px;
+}
+
+#bigplant {
+  position: relative;
+  top: 800px;
+  left: 3700px;
+}
+
+#keyboard {
+  position: relative;
+  top: 1050px;
+  left: -1300px;
+}
+
+#skateboard {
+  position: relative;
+  top: 2000px;
+  left: -2000px;
+}
+
+#gym {
+  position: relative;
+  top: 2300px;
+  left: -1900px;
+}
+
+#switch {
+  position: relative;
+  top: 1250px;
+  left: -2900px;
+}
+
+#smallplant{
+  position: relative;
+  top: 850px;
+  left: -4000px; 
+}
+
+#trophy {
+  position: relative;
+  top: 0px;
+  left: -4700px; 
+}
+
+#clothes {
+  position: relative;
+  top: 600px;
+  left: -500px;
+}
+
+#camera {
+  position: relative;
+  top: 520px;
+  left: -4970px;
+}
+
+#trash {
+  position: relative;
+  top: -600px;
+  left: 3200px;
+}
+
+#books {
+  position: relative;
+  top: -150px;
+  left: -200px;
+}
+
+#window {
+  position: relative;
+  top: -1550px;
+}
+
+#boobies {
+  position: relative;
+  top: -800px;
+  left: -200px;
+}
+
+#guitar {
+  position: relative;
+  top: -400px;
+  left: 4700px;
+}
+
+iframe {
+  position: relative;
+  top: -835px;
+  left: -1675px;
+  transform: rotateX(-50deg) rotateY(37.5deg);
+}
+
+#doge {
+  position: relative;
+  top: -1200px;
+  left: -1925px;
+  transform: rotateX(2deg) rotateY(47deg);
+}
+
+.shaky:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
